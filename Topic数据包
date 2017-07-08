@@ -1,0 +1,31 @@
+客户端发送消息格式：
+{
+	type:"onMessage",
+	senderId:"1",
+	recipientId:"2",
+	recipienttype:'persion/group',
+	msg:"hello world"
+}
+
+onOpen
+{
+	"type":"onOpen",
+	"userid":"1"
+}
+
+onClose
+{
+	"type":"onClose",
+	"userid":"1"
+} 
+
+客户端信息接受格式：
+
+{
+	
+}
+
+"insert into meeting ('meet_userid','meet_groupid','meet_content','conv_time') values ("+sender+","+recipient+","+msg+","+date+",)"
+
+
+{'type':'onMessage'}
